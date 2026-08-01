@@ -186,41 +186,30 @@ Some important insights generated from the analysis include:
 # 📁 Project Structure
 
 ```
-Banking-Transaction-Analysis-SQL
+📂 Banking-Transaction-Analysis-SQL
 │
 ├── Dataset
-│   ├── customers.csv
-│   ├── accounts.csv
-│   ├── transactions.csv
-│   ├── loans.csv
-│   ├── loan_payments.csv
-│   ├── cards.csv
-│   ├── branches.csv
-│   ├── employees.csv
-│   └── support_tickets.csv
-│
 ├── SQL Scripts
 │   ├── 01_Create_Database.sql
 │   ├── 02_Create_Tables.sql
 │   ├── 03_Import_Data.sql
-│   ├── 04_Data_Cleaning.sql
-│   ├── 05_Basic_Queries.sql
-│   ├── 06_Intermediate_Queries.sql
-│   ├── 07_Advanced_Queries.sql
-│   ├── 08_Views.sql
-│   ├── 09_CTE.sql
-│   ├── 10_Window_Functions.sql
-│   ├── 11_Stored_Procedures.sql
-│   └── 12_Triggers.sql
+│   ├── 04_Add_Primary_Keys.sql
+│   ├── 05_Add_Foreign_Keys.sql
+│   ├── 06_Data_Validation.sql
+│   ├── 07_Basic_Queries.sql
+│   ├── 08_Intermediate_Queries.sql
+│   ├── 09_Advanced_Queries.sql
+│   ├── 10_Views.sql
+│   ├── 11_CTE.sql
+│   ├── 12_Window_Functions.sql
+│   ├── 13_Stored_Procedures.sql
+│   ├── 14_Triggers.sql
+│   └── 15_Indexes.sql
 │
 ├── Screenshots
-│
 ├── ER_Diagram.png
-│
 ├── README.md
-│
 └── LICENSE
-```
 
 ---
 
