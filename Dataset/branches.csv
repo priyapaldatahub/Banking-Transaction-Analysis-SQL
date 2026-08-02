@@ -1,0 +1,151 @@
+branch_id,branch_name,city,state,opened_date,ifsc_code
+1,Pune Branch 1,Pune,Maharashtra,23-05-2016,BNK0000000
+2,Bhopal Branch 2,Bhopal,Madhya Pradesh,13-01-2002,BNK0000001
+3,Lucknow Branch 3,Lucknow,Uttar Pradesh,10-12-2017,BNK0000002
+4,Kolkata Branch 4,Kolkata,West Bengal,04-05-2002,BNK0000003
+5,Kolkata Branch 5,Kolkata,West Bengal,09-11-2005,BNK0000004
+6,Kochi Branch 6,Kochi,Kerala,19-07-2011,BNK0000005
+7,Pune Branch 7,Pune,Maharashtra,27-02-1998,BNK0000006
+8,Chandigarh Branch 8,Chandigarh,Punjab,04-12-2008,BNK0000007
+9,Bengaluru Branch 9,Bengaluru,Karnataka,17-08-2007,BNK0000008
+10,Pune Branch 1,Pune,Maharashtra,06-08-2014,BNK0000009
+11,Ahmedabad Branch 2,Ahmedabad,Gujarat,26-11-2019,BNK0000010
+12,Indore Branch 3,Indore,Madhya Pradesh,10-08-2011,BNK0000011
+13,Bhopal Branch 4,Bhopal,Madhya Pradesh,25-03-2005,BNK0000012
+14,Bhopal Branch 5,Bhopal,Madhya Pradesh,27-02-2005,BNK0000013
+15,Chandigarh Branch 6,Chandigarh,Punjab,13-06-2005,BNK0000014
+16,Bhopal Branch 7,Bhopal,Madhya Pradesh,08-05-2015,BNK0000015
+17,Ahmedabad Branch 8,Ahmedabad,Gujarat,12-01-2003,BNK0000016
+18,Pune Branch 9,Pune,Maharashtra,05-03-1999,BNK0000017
+19,Kochi Branch 1,Kochi,Kerala,11-05-2003,BNK0000018
+20,Kolkata Branch 2,Kolkata,West Bengal,27-07-1995,BNK0000019
+21,Ahmedabad Branch 3,Ahmedabad,Gujarat,27-08-1997,BNK0000020
+22,Hyderabad Branch 4,Hyderabad,Telangana,02-04-1997,BNK0000021
+23,Delhi Branch 5,Delhi,Delhi,16-04-2014,BNK0000022
+24,Nagpur Branch 6,Nagpur,Maharashtra,21-01-2013,BNK0000023
+25,Bhopal Branch 7,Bhopal,Madhya Pradesh,02-06-2012,BNK0000024
+26,Lucknow Branch 8,Lucknow,Uttar Pradesh,19-07-2006,BNK0000025
+27,Kolkata Branch 9,Kolkata,West Bengal,04-12-2012,BNK0000026
+28,Kochi Branch 1,Kochi,Kerala,12-01-1999,BNK0000027
+29,Jaipur Branch 2,Jaipur,Rajasthan,07-07-2017,BNK0000028
+30,Kolkata Branch 3,Kolkata,West Bengal,12-07-2007,BNK0000029
+31,Kolkata Branch 4,Kolkata,West Bengal,14-06-2018,BNK0000030
+32,Bengaluru Branch 5,Bengaluru,Karnataka,22-10-1998,BNK0000031
+33,Pune Branch 6,Pune,Maharashtra,08-06-2007,BNK0000032
+34,Jaipur Branch 7,Jaipur,Rajasthan,29-05-2012,BNK0000033
+35,Nagpur Branch 8,Nagpur,Maharashtra,23-05-2007,BNK0000034
+36,Mumbai Branch 9,Mumbai,Maharashtra,25-02-2006,BNK0000035
+37,Kochi Branch 1,Kochi,Kerala,26-02-1999,BNK0000036
+38,Kochi Branch 2,Kochi,Kerala,20-12-2000,BNK0000037
+39,Chennai Branch 3,Chennai,Tamil Nadu,16-07-2002,BNK0000038
+40,Lucknow Branch 4,Lucknow,Uttar Pradesh,03-02-2012,BNK0000039
+41,Delhi Branch 5,Delhi,Delhi,04-10-2010,BNK0000040
+42,Bhopal Branch 6,Bhopal,Madhya Pradesh,07-03-2010,BNK0000041
+43,Chandigarh Branch 7,Chandigarh,Punjab,17-01-2004,BNK0000042
+44,Hyderabad Branch 8,Hyderabad,Telangana,28-12-2018,BNK0000043
+45,Pune Branch 9,Pune,Maharashtra,11-03-1997,BNK0000044
+46,Indore Branch 1,Indore,Madhya Pradesh,26-07-2003,BNK0000045
+47,Kolkata Branch 2,Kolkata,West Bengal,13-12-1997,BNK0000046
+48,Nagpur Branch 3,Nagpur,Maharashtra,22-06-2003,BNK0000047
+49,Chandigarh Branch 4,Chandigarh,Punjab,18-01-2019,BNK0000048
+50,Bhopal Branch 5,Bhopal,Madhya Pradesh,27-02-2004,BNK0000049
+51,Bhopal Branch 6,Bhopal,Madhya Pradesh,18-09-2017,BNK0000050
+52,Delhi Branch 7,Delhi,Delhi,18-05-2007,BNK0000051
+53,Hyderabad Branch 8,Hyderabad,Telangana,29-06-2012,BNK0000052
+54,Ahmedabad Branch 9,Ahmedabad,Gujarat,08-06-2006,BNK0000053
+55,Ahmedabad Branch 1,Ahmedabad,Gujarat,24-08-2001,BNK0000054
+56,Mumbai Branch 2,Mumbai,Maharashtra,08-02-2014,BNK0000055
+57,Jaipur Branch 3,Jaipur,Rajasthan,25-03-2019,BNK0000056
+58,Delhi Branch 4,Delhi,Delhi,03-08-2001,BNK0000057
+59,Bhopal Branch 5,Bhopal,Madhya Pradesh,20-06-2014,BNK0000058
+60,Chandigarh Branch 6,Chandigarh,Punjab,12-07-2001,BNK0000059
+61,Nagpur Branch 7,Nagpur,Maharashtra,02-12-2012,BNK0000060
+62,Bhopal Branch 8,Bhopal,Madhya Pradesh,22-09-2014,BNK0000061
+63,Hyderabad Branch 9,Hyderabad,Telangana,27-03-2006,BNK0000062
+64,Indore Branch 1,Indore,Madhya Pradesh,03-06-2013,BNK0000063
+65,Kolkata Branch 2,Kolkata,West Bengal,21-10-2001,BNK0000064
+66,Chennai Branch 3,Chennai,Tamil Nadu,24-12-1996,BNK0000065
+67,Nagpur Branch 4,Nagpur,Maharashtra,30-05-1997,BNK0000066
+68,Hyderabad Branch 5,Hyderabad,Telangana,05-03-2006,BNK0000067
+69,Pune Branch 6,Pune,Maharashtra,25-07-2017,BNK0000068
+70,Ahmedabad Branch 7,Ahmedabad,Gujarat,10-03-1998,BNK0000069
+71,Bhopal Branch 8,Bhopal,Madhya Pradesh,24-05-2006,BNK0000070
+72,Delhi Branch 9,Delhi,Delhi,07-08-2012,BNK0000071
+73,Kolkata Branch 1,Kolkata,West Bengal,22-01-2000,BNK0000072
+74,Pune Branch 2,Pune,Maharashtra,15-01-2013,BNK0000073
+75,Chandigarh Branch 3,Chandigarh,Punjab,25-08-2002,BNK0000074
+76,Ahmedabad Branch 4,Ahmedabad,Gujarat,20-03-2015,BNK0000075
+77,Chennai Branch 5,Chennai,Tamil Nadu,24-06-2009,BNK0000076
+78,Bengaluru Branch 6,Bengaluru,Karnataka,02-09-2008,BNK0000077
+79,Jaipur Branch 7,Jaipur,Rajasthan,03-06-1999,BNK0000078
+80,Chandigarh Branch 8,Chandigarh,Punjab,31-07-2006,BNK0000079
+81,Indore Branch 9,Indore,Madhya Pradesh,31-05-2016,BNK0000080
+82,Kolkata Branch 1,Kolkata,West Bengal,28-06-1995,BNK0000081
+83,Delhi Branch 2,Delhi,Delhi,18-12-2013,BNK0000082
+84,Kochi Branch 3,Kochi,Kerala,27-04-2007,BNK0000083
+85,Lucknow Branch 4,Lucknow,Uttar Pradesh,26-12-2012,BNK0000084
+86,Chandigarh Branch 5,Chandigarh,Punjab,20-10-2005,BNK0000085
+87,Pune Branch 6,Pune,Maharashtra,06-09-2010,BNK0000086
+88,Chennai Branch 7,Chennai,Tamil Nadu,04-07-1998,BNK0000087
+89,Bhopal Branch 8,Bhopal,Madhya Pradesh,14-05-1997,BNK0000088
+90,Kochi Branch 9,Kochi,Kerala,31-03-2011,BNK0000089
+91,Kolkata Branch 1,Kolkata,West Bengal,20-09-2010,BNK0000090
+92,Kochi Branch 2,Kochi,Kerala,10-02-1997,BNK0000091
+93,Kochi Branch 3,Kochi,Kerala,08-12-2013,BNK0000092
+94,Hyderabad Branch 4,Hyderabad,Telangana,24-05-2005,BNK0000093
+95,Nagpur Branch 5,Nagpur,Maharashtra,03-09-2014,BNK0000094
+96,Chennai Branch 6,Chennai,Tamil Nadu,15-01-1996,BNK0000095
+97,Bengaluru Branch 7,Bengaluru,Karnataka,27-06-1999,BNK0000096
+98,Chandigarh Branch 8,Chandigarh,Punjab,08-05-2007,BNK0000097
+99,Lucknow Branch 9,Lucknow,Uttar Pradesh,15-09-1999,BNK0000098
+100,Delhi Branch 1,Delhi,Delhi,31-03-2003,BNK0000099
+101,Kochi Branch 2,Kochi,Kerala,07-07-2011,BNK0000100
+102,Delhi Branch 3,Delhi,Delhi,12-08-1998,BNK0000101
+103,Kochi Branch 4,Kochi,Kerala,02-08-1997,BNK0000102
+104,Mumbai Branch 5,Mumbai,Maharashtra,19-05-1999,BNK0000103
+105,Bhopal Branch 6,Bhopal,Madhya Pradesh,09-09-2009,BNK0000104
+106,Bhopal Branch 7,Bhopal,Madhya Pradesh,02-11-2014,BNK0000105
+107,Bhopal Branch 8,Bhopal,Madhya Pradesh,07-04-1999,BNK0000106
+108,Lucknow Branch 9,Lucknow,Uttar Pradesh,02-07-2002,BNK0000107
+109,Ahmedabad Branch 1,Ahmedabad,Gujarat,16-02-2018,BNK0000108
+110,Chandigarh Branch 2,Chandigarh,Punjab,28-09-2019,BNK0000109
+111,Chennai Branch 3,Chennai,Tamil Nadu,11-07-2009,BNK0000110
+112,Bhopal Branch 4,Bhopal,Madhya Pradesh,05-03-2006,BNK0000111
+113,Jaipur Branch 5,Jaipur,Rajasthan,03-09-2003,BNK0000112
+114,Kolkata Branch 6,Kolkata,West Bengal,24-04-2010,BNK0000113
+115,Ahmedabad Branch 7,Ahmedabad,Gujarat,09-10-2009,BNK0000114
+116,Jaipur Branch 8,Jaipur,Rajasthan,15-05-2002,BNK0000115
+117,Mumbai Branch 9,Mumbai,Maharashtra,28-07-1995,BNK0000116
+118,Delhi Branch 1,Delhi,Delhi,15-10-1998,BNK0000117
+119,Bengaluru Branch 2,Bengaluru,Karnataka,18-12-2018,BNK0000118
+120,Pune Branch 3,Pune,Maharashtra,15-06-2005,BNK0000119
+121,Kolkata Branch 4,Kolkata,West Bengal,21-01-2007,BNK0000120
+122,Chandigarh Branch 5,Chandigarh,Punjab,16-08-1996,BNK0000121
+123,Lucknow Branch 6,Lucknow,Uttar Pradesh,25-01-1997,BNK0000122
+124,Ahmedabad Branch 7,Ahmedabad,Gujarat,23-11-2001,BNK0000123
+125,Kochi Branch 8,Kochi,Kerala,02-03-2007,BNK0000124
+126,Jaipur Branch 9,Jaipur,Rajasthan,12-10-2011,BNK0000125
+127,Pune Branch 1,Pune,Maharashtra,08-04-2007,BNK0000126
+128,Bhopal Branch 2,Bhopal,Madhya Pradesh,11-01-2006,BNK0000127
+129,Jaipur Branch 3,Jaipur,Rajasthan,12-06-2018,BNK0000128
+130,Lucknow Branch 4,Lucknow,Uttar Pradesh,10-01-1999,BNK0000129
+131,Jaipur Branch 5,Jaipur,Rajasthan,17-04-2009,BNK0000130
+132,Jaipur Branch 6,Jaipur,Rajasthan,22-07-2008,BNK0000131
+133,Pune Branch 7,Pune,Maharashtra,02-11-2006,BNK0000132
+134,Jaipur Branch 8,Jaipur,Rajasthan,11-03-2015,BNK0000133
+135,Bhopal Branch 9,Bhopal,Madhya Pradesh,03-09-2001,BNK0000134
+136,Chennai Branch 1,Chennai,Tamil Nadu,04-11-2018,BNK0000135
+137,Lucknow Branch 2,Lucknow,Uttar Pradesh,16-04-2003,BNK0000136
+138,Mumbai Branch 3,Mumbai,Maharashtra,16-08-2008,BNK0000137
+139,Hyderabad Branch 4,Hyderabad,Telangana,07-01-2008,BNK0000138
+140,Kolkata Branch 5,Kolkata,West Bengal,30-03-2016,BNK0000139
+141,Indore Branch 6,Indore,Madhya Pradesh,21-12-2005,BNK0000140
+142,Bengaluru Branch 7,Bengaluru,Karnataka,11-02-2002,BNK0000141
+143,Chennai Branch 8,Chennai,Tamil Nadu,17-07-1995,BNK0000142
+144,Kolkata Branch 9,Kolkata,West Bengal,28-08-2015,BNK0000143
+145,Indore Branch 1,Indore,Madhya Pradesh,01-04-1995,BNK0000144
+146,Kochi Branch 2,Kochi,Kerala,27-05-2017,BNK0000145
+147,Mumbai Branch 3,Mumbai,Maharashtra,27-07-2008,BNK0000146
+148,Bengaluru Branch 4,Bengaluru,Karnataka,04-07-1998,BNK0000147
+149,Kochi Branch 5,Kochi,Kerala,22-07-2002,BNK0000148
+150,Mumbai Branch 6,Mumbai,Maharashtra,06-11-2008,BNK0000149
