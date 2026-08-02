@@ -1,4 +1,8 @@
+<p align="center">
+  <img src="Screenshots/banner.png" alt="Banking Transaction Analysis Banner" width="100%">
+</p>
 
+# 🏦 Banking Transaction Analysis using SQL
 # 🏦 Banking Transaction Analysis using SQL
 
 ![MySQL](https://img.shields.io/badge/MySQL-8.0-blue)
