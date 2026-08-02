@@ -1,302 +1,286 @@
 
+
+
 # 🏦 Banking Transaction Analysis using SQL
 
-![MySQL](https://img.shields.io/badge/MySQL-8.0-blue)
+![MySQL](https://img.shields.io/badge/MySQL-8.0-blue?logo=mysql)
 ![SQL](https://img.shields.io/badge/SQL-Project-success)
+![Database](https://img.shields.io/badge/Database-Analysis-orange)
 ![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
 
 ---
 
-## 📌 Project Overview
+# 📌 Project Overview
 
-The **Banking Transaction Analysis** project is an end-to-end SQL project developed using **MySQL**. It focuses on analyzing banking operations such as customer accounts, financial transactions, loans, cards, branch performance, employee management, and customer support.
+The **Banking Transaction Analysis** project is an end-to-end SQL project developed using **MySQL**. It focuses on analyzing banking operations such as customers, accounts, financial transactions, loans, cards, branch performance, employee management, and customer support.
 
-The project demonstrates how SQL can be used to solve real-world business problems by performing data validation, querying large datasets, creating views, writing stored procedures, implementing triggers, using Common Table Expressions (CTEs), Window Functions, and optimizing performance with indexes.
-
----
-
-## 🎯 Objectives
-
-- Analyze customer and account information
-- Study banking transaction behavior
-- Monitor loan performance and repayments
-- Analyze debit and credit card information
-- Evaluate branch performance
-- Analyze employee distribution
-- Monitor customer support activities
-- Generate business insights using SQL
+The project demonstrates how SQL can be used to solve real-world business problems through data validation, querying, reporting, optimization, and business insight generation.
 
 ---
 
-## 🛠 Technologies Used
+# 🎯 Project Objectives
 
-- MySQL 8.0
-- MySQL Workbench
-- SQL
-- Git
-- GitHub
+- Analyze customer and account information.
+- Monitor banking transactions.
+- Evaluate loan performance.
+- Analyze branch performance.
+- Study employee distribution.
+- Track customer support efficiency.
+- Generate business insights using SQL.
 
 ---
 
-# 📂 Database Structure
+# 🛠 Tech Stack
+
+| Technology | Used |
+|------------|------|
+| Database | MySQL 8.0 |
+| Language | SQL |
+| IDE | MySQL Workbench |
+| Dataset | CSV Files |
+| Version Control | Git & GitHub |
+
+---
+
+# 📂 Dataset Information
 
 The project contains **9 relational tables**.
 
-| Table | Description |
-|--------|-------------|
-| Customers | Customer Information |
-| Accounts | Bank Account Details |
-| Transactions | Customer Banking Transactions |
-| Loans | Loan Details |
-| Loan_Payments | Loan Repayment Records |
-| Cards | Debit/Credit Card Information |
-| Branches | Branch Information |
-| Employees | Employee Information |
-| Support_Tickets | Customer Support Records |
+| Table |
+|--------|
+| Customers |
+| Accounts |
+| Transactions |
+| Loans |
+| Loan_Payments |
+| Cards |
+| Branches |
+| Employees |
+| Support_Tickets |
+
+### Dataset Note
+
+The original **Transactions** dataset contained millions of records.
+
+Since GitHub limits file uploads to **25 MB**, a representative sample of **100,000 transaction records** (`transactions_100k.csv`) has been included in this repository.
+
+All SQL queries, views, stored procedures, triggers, window functions, and business analysis were successfully performed using this dataset.
 
 ---
 
-# 🔗 Database Relationships
+# 📂 Project Structure
 
-- One Customer → Many Accounts
-- One Customer → Many Loans
-- One Customer → Many Cards
-- One Customer → Many Support Tickets
-- One Account → Many Transactions
-- One Loan → Many Loan Payments
-- One Branch → Many Accounts
-- One Branch → Many Employees
-- One Branch → Many Loans
+```
+Banking-Transaction-Analysis-SQL
+│
+├── README.md
+│
+├── Dataset
+│   ├── README.md
+│   ├── accounts.csv
+│   ├── branches.csv
+│   ├── cards.csv
+│   ├── customers.csv
+│   ├── employees.csv
+│   ├── loans.csv
+│   ├── support_tickets.csv
+│   └── transactions_100k.csv
+│
+├── SQL Scripts
+│   ├── README.md
+│   ├── 01_Create_Database.sql
+│   ├── 02_Create_Tables.sql
+│   ├── ...
+│   └── 15_Indexes.sql
+│
+├── ER
+│   ├── README.md
+│   └── ER_Diagram.png
+│
+└── Screenshots
+    ├── README.md
+    ├── Basic_Queries.png
+    ├── Intermediate_Queries.png
+    ├── Advanced_Queries.png
+    ├── Views.png
+    ├── CTE.png
+    ├── Window_Functions.png
+    ├── Stored_Procedures.png
+    ├── Triggers.png
+    └── Indexes.png
+```
 
 ---
 
-# 📊 SQL Concepts Demonstrated
+# 🗂 Database Schema
 
-This project covers:
+The project database consists of **9 interconnected tables** linked using **Primary Keys** and **Foreign Keys**.
 
-- SELECT
-- WHERE
-- ORDER BY
-- GROUP BY
-- HAVING
-- Aggregate Functions
-- INNER JOIN
-- LEFT JOIN
-- RIGHT JOIN
-- SELF JOIN
-- Subqueries
-- CASE Statements
-- Views
-- Common Table Expressions (CTEs)
-- Window Functions
-- Stored Procedures
-- Triggers
-- Indexes
-- Data Validation
-- Primary Keys
-- Foreign Keys
+The complete Entity Relationship Diagram is available inside the **ER** folder.
+
+## Entity Relationship Diagram
+
+![ER Diagram](ER/ER_Diagram.png)
 
 ---
 
-# 📈 Business Problems Solved
+# ⚙ SQL Features Implemented
 
-The project answers **40+ business questions**, including:
+✅ Database Creation
+
+✅ Table Creation
+
+✅ CSV Data Import
+
+✅ Data Validation
+
+✅ Primary Keys
+
+✅ Foreign Keys
+
+✅ Basic Queries
+
+✅ Intermediate Queries
+
+✅ Advanced Queries
+
+✅ Views
+
+✅ Common Table Expressions (CTEs)
+
+✅ Window Functions
+
+✅ Stored Procedures
+
+✅ Triggers
+
+✅ Indexes
+
+✅ Entity Relationship Diagram
+
+---
+
+# 📊 Business Analysis Performed
 
 ### Customer Analysis
-- Total customers
-- Customers by city
-- Customers by gender
-- Customers with multiple accounts
-- Active customers
+
+- Customer distribution
+- Credit score analysis
+- Income analysis
 
 ### Account Analysis
-- Account type distribution
-- Average account balance
-- Highest balance account
-- Lowest balance account
+
+- Account types
+- Balance analysis
+- Active vs Inactive accounts
 
 ### Transaction Analysis
-- Monthly transaction trends
-- Transaction type distribution
-- Highest transaction amount
-- Top customers by transaction value
-- Branch-wise transactions
+
+- Transaction channels
+- Transaction amount analysis
+- Merchant category analysis
 
 ### Loan Analysis
-- Loan distribution
-- Average loan amount
-- Loan repayment analysis
-- Pending loans
-- Completed loans
 
-### Card Analysis
-- Card type distribution
-- Active cards
-- Credit limit analysis
+- Loan status
+- Loan repayment
+- Interest analysis
 
-### Branch Analysis
-- Branch performance
-- Customer count by branch
-- Total balance by branch
+### Branch Performance
+
+- Total customers
+- Total balances
+- Branch ranking
 
 ### Employee Analysis
-- Employees per branch
+
+- Employee count
 - Salary analysis
-- Employee distribution
+- Branch-wise employee distribution
 
 ### Customer Support Analysis
+
 - Open tickets
 - Closed tickets
-- Ticket status distribution
-- Customer satisfaction analysis
+- Customer satisfaction score
 
 ---
 
 # 💡 Key Business Insights
 
 - Identified top-performing branches based on account balances.
-- Analyzed customer transaction trends across different channels.
+- Analyzed customer transaction behavior across different payment channels.
 - Evaluated loan repayment performance.
 - Compared account types and customer distribution.
-- Identified inactive accounts.
+- Identified inactive customer accounts.
 - Measured employee distribution across branches.
-- Evaluated customer support efficiency.
-
----
-
-# 🗂 Project Structure
-
-```
-Banking-Transaction-Analysis-SQL
-│
-├── Dataset
-├── SQL Scripts
-├── Screenshots
-├── README.md
-├── LICENSE
-├── ER_Diagram.png
-└── ER_Diagram.mwb
-```
-
----
-
-# 📜 SQL Script Files
-
-```
-01_Create_Database.sql
-02_Create_Tables.sql
-03_Import_Data.sql
-04_Add_Primary_Keys.sql
-05_Add_Foreign_Keys.sql
-06_Data_Validation.sql
-07_Basic_Queries.sql
-08_Intermediate_Queries.sql
-09_Advanced_Queries.sql
-10_Views.sql
-11_CTE.sql
-12_Window_Functions.sql
-13_Stored_Procedures.sql
-14_Triggers.sql
-15_Indexes.sql
-```
+- Evaluated customer support efficiency using ticket status and satisfaction scores.
 
 ---
 
 # 📸 Project Screenshots
 
-Project screenshots include:
+## Basic Queries
 
-- Database
-- Tables
-- Data Import
-- Data Validation
-- Basic Queries
-- Intermediate Queries
-- Advanced Queries
-- Views
-- CTEs
-- Window Functions
-- Stored Procedures
-- Triggers
-- Indexes
-- ER Diagram
+![Basic Queries](Screenshots/Basic_Queries.png)
 
 ---
 
-# ⚠ Dataset Note
+## Views
 
-The original **Transactions** dataset contained **1,048,576 records (over 1 million rows)**.
-
-While importing the full dataset into MySQL Workbench, compatibility and loading issues were encountered due to the dataset format. After validating the remaining tables and ensuring the database design was correct, a cleaned subset containing **100,000 transaction records** was created and used for the transaction analysis.
-
-This subset preserves the original schema and enables efficient execution of SQL queries while accurately demonstrating analytical techniques and business insights.
+![Views](Screenshots/Views.png)
 
 ---
 
-# 🚀 How to Run
+## Window Functions
 
-### Step 1
-
-Clone the repository
-
-```bash
-git clone https://github.com/yourusername/Banking-Transaction-Analysis-SQL.git
-```
-
-### Step 2
-
-Open MySQL Workbench.
-
-### Step 3
-
-Run the SQL scripts in the following order:
-
-```
-01_Create_Database.sql
-02_Create_Tables.sql
-03_Import_Data.sql
-04_Add_Primary_Keys.sql
-05_Add_Foreign_Keys.sql
-06_Data_Validation.sql
-07_Basic_Queries.sql
-08_Intermediate_Queries.sql
-09_Advanced_Queries.sql
-10_Views.sql
-11_CTE.sql
-12_Window_Functions.sql
-13_Stored_Procedures.sql
-14_Triggers.sql
-15_Indexes.sql
-```
+![Window Functions](Screenshots/Window_Functions.png)
 
 ---
 
-# 📚 Skills Demonstrated
+## Stored Procedures
 
-- SQL Query Writing
-- Relational Database Design
-- Data Cleaning
-- Data Validation
-- Data Analysis
-- Business Intelligence
-- Database Management
-- Performance Optimization
-- Problem Solving
+![Stored Procedures](Screenshots/Stored_Procedures.png)
 
 ---
 
-# 🔮 Future Improvements
+## Triggers
 
-- Power BI Dashboard
-- Python Data Analysis (Pandas)
-- Tableau Dashboard
-- ETL Automation
-- Banking KPI Dashboard
+![Triggers](Screenshots/Triggers.png)
 
 ---
 
-# 👩‍💻 Author
+## Indexes
+
+![Indexes](Screenshots/Indexes.png)
+
+---
+
+# 🚀 Future Improvements
+
+- Create interactive Power BI dashboards.
+- Perform advanced analytics using Python.
+- Build predictive models using Machine Learning.
+- Integrate the database with a web application.
+- Deploy the project on a cloud database platform.
+
+---
+
+# 👩 Author
 
 **Priya Pal**
 
-If you found this project helpful, feel free to ⭐ star the repository.
+🎓 B.Sc. Information Technology
+
+📊 Aspiring Data Analyst
+
+💻 Skilled in SQL, Excel, Python, Power BI, Tableau, MySQL, Numpy, Pandas, Seaborn and  Metplotlib
+
+### Connect with me
+
+GitHub: https://github.com/priyapaldatahub
+
+LinkedIn: www.linkedin.com/in/priyakailashnathpal
+---
+
+# ⭐ If you found this project useful, don't forget to star this repository!
