@@ -118,10 +118,6 @@ The project database consists of **9 interconnected tables** linked using **Prim
 
 The complete Entity Relationship Diagram is available inside the **ER** folder.
 
-## Entity Relationship Diagram
-
-![ER Diagram](ER/ER_Diagram.png)
-
 ---
 
 # ⚙ SQL Features Implemented
@@ -222,39 +218,15 @@ The complete Entity Relationship Diagram is available inside the **ER** folder.
 
 ## Basic Queries
 
-![Basic Queries](Screenshots/Basic_Queries.png)
-
----
-
 ## Views
-
-![Views](Screenshots/Views.png)
-
----
 
 ## Window Functions
 
-![Window Functions](Screenshots/Window_Functions.png)
-
----
-
 ## Stored Procedures
-
-![Stored Procedures](Screenshots/Stored_Procedures.png)
-
----
 
 ## Triggers
 
-![Triggers](Screenshots/Triggers.png)
-
----
-
 ## Indexes
-
-![Indexes](Screenshots/Indexes.png)
-
----
 
 # 🚀 Future Improvements
 
